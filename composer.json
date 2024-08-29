@@ -12,7 +12,5 @@
       "email": "wgb237@163.com"
     }
   ],
-  "require": {
-    "topthink/think": "^8.0"
-  }
+  "require": {}
 }
