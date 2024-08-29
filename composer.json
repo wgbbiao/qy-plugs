@@ -3,10 +3,7 @@
   "description": "青远自用库",
   "autoload": {
     "psr-4": {
-      "qy-plugs\\": "src/"
-    },
-    "extra": {
-      "think-path": "thinkphp"
+      "qyPlugs\\": "src/"
     }
   },
   "authors": [

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace app\plug\controller;
+namespace qyPlugs\plug\controller;
 
 
 class Auth
