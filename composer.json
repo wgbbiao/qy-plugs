@@ -1,18 +1,18 @@
 {
-    "name": "qingyuan/plugs",
-    "description": "青远自用库",
-    "autoload": {
-        "psr-4": {
-            "Qingyuan\\Plugs\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "wgbbiao",
-            "email": "wgb237@163.com"
-        }
-    ],
-    "require": {
-        "topthink/think": "^8.0"
+  "name": "zhbhd/plugs",
+  "description": "青远自用库",
+  "autoload": {
+    "psr-4": {
+      "Zhbhd\\Plugs\\": "src/"
     }
+  },
+  "authors": [
+    {
+      "name": "wgbbiao",
+      "email": "wgb237@163.com"
+    }
+  ],
+  "require": {
+    "topthink/think": "^8.0"
+  }
 }
