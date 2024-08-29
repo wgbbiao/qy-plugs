@@ -12,12 +12,5 @@
       "email": "wgb237@163.com"
     }
   ],
-  "require": {},
-  "extra": {
-    "plugin": {
-      "copy": {
-        "src": "!app/plugs"
-      }
-    }
-  }
+  "require": {}
 }
