@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace qy\plugs;
+namespace qyplugs;
 
 use think\Service;
 use think\Route;
