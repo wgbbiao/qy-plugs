@@ -16,7 +16,7 @@
   "extra": {
     "plugin": {
       "copy": {
-        "src": "app/plugs"
+        "src": "!app/plugs"
       }
     }
   }
