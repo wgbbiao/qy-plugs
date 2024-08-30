@@ -30,22 +30,17 @@ class PlugService extends Service
      *
      * @var string
      */
-    protected $name = 'plugs';
+    protected $name = 'plu';
+
+    public function boot(Route $route)
+    {
+        $this->bootRoute($route);
+    }
 
     public function bootRoute(Route $route)
     {
-        $routePath = admin_route_path();
-        // 路由检测
-        $files = scandir($routePath);
-        foreach ($files as $file) {
-            if (strpos($file, '.php')) {
-                $filename = $routePath . $file;
-                // 导入路由配置
-                $route->group($this->name, function () use ($filename) {
-                    include_once($filename);
-                })
-                    ->prefix($this->namespace);
-            }
-        }
+        $route->group($this->name, function () {
+            \think\facade\Route::get('/auth/signature', \qyPlugs\controller\Auth::class . '/signature');
+        });
     }
 }

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace qyPlugs\plug\controller;
+namespace qyPlugs\controller;
 
 
 class Auth
@@ -10,7 +10,7 @@ class Auth
     function signature(): string
     {
         $app_id = 'your app_id';
-        $app_secret =  'your app_secret';
+        $app_secret =  'your app_secretdddd';
         // 随机字符串
         $nonceStr = random_bytes(20);
         $timestamp = time();
